@@ -1,0 +1,22 @@
+{
+    "name": "cotya/deploy-helper",
+    "description": "a file deployment helper for php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Flyingmana",
+            "email": "flyingmana@googlemail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cotya\\DeployHelper\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/filesystem":"*"
+    },
+    "require-dev": {
+        "phpunit/phpunit":"4.*"
+    }
+}
